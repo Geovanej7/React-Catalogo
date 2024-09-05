@@ -1,0 +1,52 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: black;
+}
+
+#navbar h2 a {
+    display: flex;
+    align-items: center;
+    gap: 0,5rem;
+}
+
+#navbar form{
+    display: flex;
+    gap: .5rem;
+}
+
+#navbar input{
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+}
+#navbar input:focus {
+    border-color: #f7d354; 
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); 
+    background-color: #f9f9f9;
+}
+
+#navbar button {
+    background-color: #f7d354;
+    border: 2px solid #f7d354;
+    border-radius: 4px;
+    color: black;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#navbar button:hover {
+    background-color: transparent;
+    color: #f7d354;
+}
