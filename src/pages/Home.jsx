@@ -1,6 +1,10 @@
+import Card from '../components/Card'
 const Home = () => {
     return(
-        <div>Conheça nossos serviços</div>
+        <div>
+            <Card/>
+        </div>
+        
     ) 
 }
 export default Home
