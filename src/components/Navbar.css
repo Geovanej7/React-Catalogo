@@ -1,11 +1,9 @@
-/* Estilo padrão (desktop) */
-
 #navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem;
-    background-color: black;
+    background-color: #222;
 }
 
 #navbar h2 a {
@@ -52,8 +50,6 @@
     background-color: transparent;
     color: #f7d354;
 }
-
-/* Estilos para telas menores (responsivo) */
 
 @media (max-width: 768px) {
     #navbar {
