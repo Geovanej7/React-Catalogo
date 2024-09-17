@@ -1,0 +1,37 @@
+.service-details {
+    display: flex;
+    align-items: stretch;
+    gap: 20px; 
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.service-image {
+    width: 450px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.service-card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+}
+
+.service-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.service-info p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
