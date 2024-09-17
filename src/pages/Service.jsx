@@ -9,6 +9,7 @@ const Service = () => {
 
     return (
         <>
+        <div className="page-container">
         <div className="service-details">
             <img src={img} alt={`Imagem do ${name}`} className="service-image" />
             <div className="service-card">
@@ -19,6 +20,7 @@ const Service = () => {
             </div>
         </div>
         <Footer/>
+        </div>
         </>
     )
 }

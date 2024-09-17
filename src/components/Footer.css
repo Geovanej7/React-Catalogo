@@ -1,48 +1,63 @@
+/* Contêiner do Footer */
 .footer-container {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    display: flex;
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    display: flex; 
     justify-content: space-between; 
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    align-items: center; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    position: relative; 
+    margin-top: auto; 
+    min-height: 80px; 
 }
 
 .footer-text {
-    font-size: 1rem;
-    margin: 0;
+    font-size: 1rem; 
+    margin: 0; 
 }
+
 
 .instagram-icon {
     color: white;
     display: flex; 
-    align-items: center;
-    font-size: 1.5rem;
-    transition: color 0.3s;
+    align-items: center; 
+    font-size: 1.5rem; 
+    transition: color 0.3s; 
     text-decoration: none; 
 }
 
+
 .instagram-icon:hover {
-    color: #E1306C;
+    color: #E1306C; 
 }
+
 
 .instagram-text {
     margin-left: 8px; 
-    font-size: 1rem;
+    font-size: 1rem; 
 }
-
 
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column; 
-        text-align: center;
+        text-align: center; 
     }
 
     .instagram-icon {
-        margin: 10px 10px;
+        margin: 10px 0; 
+    }
+}
+
+@media (max-width: 408px) {
+    .footer-container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .instagram-icon {
+        margin: 10px 0; 
     }
 }
