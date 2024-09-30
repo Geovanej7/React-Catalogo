@@ -8,7 +8,7 @@ const Card = () => {
         img: 'https://i.pinimg.com/564x/94/4a/2c/944a2ce7c15ea5ba753055b5401ea327.jpg' },
         { id: 2, name: 'Serviço 2', description: 'Descrição do serviço 2...', img: 'https://i.pinimg.com/564x/94/4a/2c/944a2ce7c15ea5ba753055b5401ea327.jpg' },
         { id: 3, name: 'Serviço 3', description: 'Descrição do serviço 3...', img: 'https://i.pinimg.com/564x/94/4a/2c/944a2ce7c15ea5ba753055b5401ea327.jpg' },
-        // ... adicione mais serviços conforme necessário
+        
     ];
 
     return(
